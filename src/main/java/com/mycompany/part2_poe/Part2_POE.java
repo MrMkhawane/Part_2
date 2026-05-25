@@ -213,7 +213,7 @@ public class Part2_POE {
             if (selection == 1) {
                 for (int i = 0; i < message.getsend().length; i++) {
                     if (message.getsend()[i] == null) {
-                        JOptionPane.showMessageDialog(null, "Coming Soon.");
+                        JOptionPane.showMessageDialog(null, "Arriving Soon.");
                         break;
                     }
                     if (message.getsend()[i] != null) {
