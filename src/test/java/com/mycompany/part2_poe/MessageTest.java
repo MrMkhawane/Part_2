@@ -87,7 +87,7 @@ public class MessageTest {
         Message message = new Message();
         Random random = new Random();
         int count = 1;
-        String messages = "Hello there, how are you?";
+        String messages = "Hello, how are you?";
         String number = "+2785350865";
         String expResult = "Message successfully stored.";
         String result = message.SentMessage(random, count, messages, number);
