@@ -129,7 +129,7 @@ public class MessageTest {
         Random random = new Random();
         int count = 1;
         String messages = "Hello";
-        String number = "+27121231234";
+        String number = "+27718834885";
         Message message = new Message();
         message.storeMessages(random, count, messages, number);
     }
