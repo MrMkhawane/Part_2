@@ -71,7 +71,7 @@ public class MessageTest {
         System.out.println("createMessageHash");
         Message message = new Message();
         int count = 1;
-        String messages = "Hi , Thanks for tonight";
+        String messages = "Hi , Thank for the day";
         long messageID = 1234567890L;
         String expResult = "12:1:HITONIGHT";
         String result = message.createMessageHash(count, messages, messageID);
